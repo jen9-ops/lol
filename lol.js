@@ -1,4 +1,4 @@
-const btn = function createRandomButton(customId, customClass) {
+export function createRandomButton(customId, customClass) {
   try {
     // Use provided ID and class, or generate random ones if not provided
     const id = customId || 'btn-' + Math.random().toString(36).substr(2, 9);
